@@ -5,6 +5,34 @@ public class Main {
 
         System.out.println("Hello World!");
 
+        System.out.println("Hello");
+        System.out.println("Mihai");
+
+        byte myByteVariable = 3 + 5;
+
+        System.out.println(myByteVariable);
+
+        myByteVariable = 20 / 10;
+        System.out.println(myByteVariable);
+
+        myByteVariable = -5 + 8 * 6;
+        System.out.println(myByteVariable);
+
+        myByteVariable = (55+9) % 9;
+        System.out.println(myByteVariable);
+
+        myByteVariable = 20 + -3*5 / 8;
+        System.out.println(myByteVariable);
+
+        myByteVariable = 5 + 15 / 3 * 2 - 8 % 3;
+        System.out.println(myByteVariable);
+
+
+
+
+
+
+
 
 
 
