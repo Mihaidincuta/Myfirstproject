@@ -75,8 +75,7 @@ public class Main {
         System.out.println(myByteVariable); */
         modelJava();
         fata();
-
-
+        distanta();
 
 
 
@@ -116,9 +115,6 @@ public class Main {
         System.out.println(" JJ  a     a   V   a     a");
 
 
-
-
-
         int a = 5;
         int b = 6;
         int c = 7;
@@ -129,8 +125,9 @@ public class Main {
 
 
     }
-    public static int medie(int a, int b, int c){
-        return (a + b + c)/ 3;
+
+    public static int medie(int a, int b, int c) {
+        return (a + b + c) / 3;
 
     }
 
@@ -140,6 +137,44 @@ public class Main {
         System.out.println(" |    ^     |");
         System.out.println(" |   '-'    |");
         System.out.println(" +----------+");
+
+
+        int numar1 = 15;
+        int numar2 = 4;
+        int rest = restul(numar1, numar2);
+
+        System.out.println("Restul împărțirii lui " + numar1 + " la " + numar2 + " este: " + rest);
+
+        double tempF = 65.0;
+        double tempC = fahrenheitToCelsius(tempF);
+        System.out.println(tempF +"F este egal cu "+ tempC +"C");
+
+
+    }
+
+    public static int restul(int numar1, int numar2) {
+        return numar1 % numar2;
+    }
+
+
+
+    public static double fahrenheitToCelsius(double tempF) {
+        return (5.0 / 9.0) * (tempF - 32.0);
+    }
+
+
+    public static void distanta() {
+
+        double distantaInInch = 85.0;
+        double distantaInMetri = inchesToMeters(distantaInInch);
+
+        System.out.println(distantaInInch + " inch este egal cu " + distantaInMetri + " metri.");
+
+
+    }
+        public static double inchesToMeters(double inches) {
+            final double METERS_PER_INCH = 0.0254;
+            return inches * METERS_PER_INCH;
     }
 
 
@@ -147,15 +182,4 @@ public class Main {
 
 
 
-
-
-
-
-
-
-
-
-
 }
-
-
