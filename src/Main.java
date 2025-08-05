@@ -3,8 +3,8 @@
 public class Main {
     public static void main(String[] args) {
 
-/*
-        System.out.println("Hello World!");
+
+     /*   System.out.println("Hello World!");
 
        System.out.println("Hello");
         System.out.println("Mihai");
@@ -111,6 +111,89 @@ public class Main {
         double distantaInMetri = calc.inchesToMeters(distantaInInch);
 
         System.out.println(distantaInInch + " inch este egal cu " + distantaInMetri + " metri.");
+
+
+        LogicalOp op = new LogicalOp();
+
+        int biggest = op.checkBiggerNumber(2, 3);
+
+        System.out.println("The bigger number is: " + biggest);
+
+        String result1 = op.compareText("FastTrackIT");
+        System.out.println(result1);
+
+        String result2 = op.compareText("Hello Mihai");
+        System.out.println(result2);
+
+
+
+        // Condiția 1 îndeplinită
+        String test1 = op.textAndNumber("FastTrackIT", 2);
+        System.out.println("Test 1: " + test1);
+
+        // Condiția 2 îndeplinită
+        String test2 = op.textAndNumber("Fasttrackit", 6);
+        System.out.println("Test 2: " + test2);
+
+        // Niciuna dintre condiții îndeplinită
+        String test3 = op.textAndNumber("FastTrackIT", 10);
+        System.out.println("Test 3: " + test3);
+
+
+
+
+        String first = op.snowAmount(10);
+        System.out.println(first);
+
+        String second = op.snowAmount(5);
+        System.out.println(second);
+
+
+
+
+        String rezultat1 = op.numberType(5);
+        System.out.println(rezultat1);
+
+        String rezultat2 = op.numberType(4);
+        System.out.println(rezultat2);
+
+        String rezultat3 = op.numberType(2);
+        System.out.println(rezultat3);
+
+
+        op.displayNumber(5);
+        op.displayNumber(15);
+
+
+
+
+        boolean isEven1 = op.isNumberEven(8);
+        System.out.println("Is 8 an even number? " + isEven1);
+
+        boolean isEven2 = op.isNumberEven(5);
+        System.out.println("Is 5 an even number? " + isEven2);
+
+
+
+
+
+        boolean vote1 = op.isEligibleToVote(25);
+        System.out.println("A 25 years old person is eligible to vote? " + vote1);
+
+        boolean Vote2 = op.isEligibleToVote(15);
+        System.out.println("A 15 years old person is eligible to vote? " + Vote2);
+
+
+
+
+        int gratest1 = op.gratestNumber(5, 2, 8);
+        System.out.println("The gratest number is: " + gratest1);
+
+        int gratest2 = op.gratestNumber(10, 25, 3);
+        System.out.println("The gratest number is: " + gratest2);
+
+        int gratest3 = op.gratestNumber(7, 4, 12);
+        System.out.println("The gratest number is: " + gratest3);
 
     }
 
