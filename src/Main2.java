@@ -4,25 +4,25 @@ public class Main2 {
 
         LogicalOp op = new LogicalOp();
 
-       // op.printFromnumberTo100(50);
+        op.printFromnumberTo100(50);
 
-       // op.printFromnumberToMinus100(10);
+        op.printFromnumberToMinus100(10);
 
-       // op.countBetweenNumbers(5, 15);
+        op.countBetweenNumbers(5, 15);
 
-       // op.countFromsmallestToLargest(2, 10);
+         op.countFromsmallestToLargest(2, 10);
 
-       // op.countFromLargestToSmallest(2,10);
+        op.countFromLargestToSmallest(2,10);
 
-       // op.printEvenNumbers();
+        op.printEvenNumbers();
 
-      //  op.printOddNumbers();
+        op.printOddNumbers();
 
-       // op.sumNumbers();
+       op.sumNumbers();
 
-       // op.averageNumbers();
+       op.averageNumbers();
 
-        op.printPattern();
+       op.printPattern();
 
 
 
