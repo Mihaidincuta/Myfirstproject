@@ -3,8 +3,19 @@ package AnimalRescue;
 public class Food {
 
   String name = "Pedigree";
-  int price = 150;
+  private int price;
   int quantity = 10;
   int availableStok = 100;
+
+  public void setPrice(int price){
+      this.price = price;
+
+  }
+
+  public int getPrice(){
+      return price;
+
+  }
+
 
 }

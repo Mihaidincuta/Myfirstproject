@@ -2,7 +2,14 @@ package AnimalRescue;
 
 public class RecreationActivity {
 
-    String name = "Walking";
+    private String mood;
 
+public void setMood(String mood){
+    this.mood = mood;
 
+}
+public String getMood(){
+    return mood;
+
+}
 }

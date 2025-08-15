@@ -3,6 +3,17 @@ package AnimalRescue;
 public class Veterinarian {
 
  String name = "Alex";
- String specialization = "Doctor";
+ private String specialization;
+
+ public void setSpecialization(String specialization){
+     this.specialization = specialization;
+
+ }
+
+ public String getSpecialization(){
+     return specialization;
+
+ }
+
 
 }
