@@ -1,32 +1,17 @@
 package AnimalRescue;
 
-public class Dog {
+public class Dog extends Animal{
 
-private String name;
-private int age;
-String breed = "Bichon";
-String color = "White";
-int weight = 5;
-String gender = "female";
+public void bark(){
+    System.out.println("The dog barks at people");
 
-public void setName(String name){
-    this. name = name;
+
 
 }
+    public void bite(){
 
-public String getName(){
-    return name;
+        System.out.println("They bites bad people");
+    }
 
-}
-
-public void setAge(int age){
-    this. age = age;
-
-}
-
-public int getAge(){
-    return age;
-
-}
 
 }
